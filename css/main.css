@@ -779,6 +779,7 @@ a {
   padding: 16px 24px 16px 24px;
   border: none;
   border-radius: 14px 0px 0px 14px;
+  transition: transform 0.3s ease-in-out;
 }
 .after {
   font-family: Inter;
@@ -796,6 +797,18 @@ a {
   padding: 16px 24px 16px 24px;
   border: 1px solid #09a2d5;
   border-radius: 0px 14px 14px 0px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.before:hover,
+.before:focus,
+.before:active {
+  transform: scale(1.1);
+}
+.after:hover,
+.after:focus,
+.after:active {
+  transform: scale(1.1);
 }
 @media screen and (min-width: 1200px) {
   .advantages {
