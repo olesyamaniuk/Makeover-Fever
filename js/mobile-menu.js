@@ -21,9 +21,15 @@ document.addEventListener('DOMContentLoaded', () => {
   );
 });
 
+  function showBefore() {
+      document.getElementById('image').src = '/image/advantages/image before.png';
+      document.getElementById('image').alt = 'Before';
+    }
 
-
-
+    function showAfter() {
+      document.getElementById('image').src = '/image/advantages/image after.png';
+      document.getElementById('image').alt = 'After';
+    }
 
 
 
